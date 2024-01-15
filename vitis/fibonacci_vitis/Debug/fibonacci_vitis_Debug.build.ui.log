@@ -1,0 +1,25 @@
+2023-11-21T11:06:42.768395300255-11:06:42 **** Incremental Build of configuration Debug for project fibonacci_vitis ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ai770741/workspace/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: fibonacci_vitis.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ai770741/workspace/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/standalone_domain/bsplib/lib -o "fibonacci_vitis.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: fibonacci_vitis.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size fibonacci_vitis.elf  |tee "fibonacci_vitis.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  86948	   2592	  23344	 112884	  1b8f4	fibonacci_vitis.elf
+000-'Finished building: fibonacci_vitis.elf.size'
+000-' '
+00255-
+11:06:43 Build Finished (took 1s.43ms)
+

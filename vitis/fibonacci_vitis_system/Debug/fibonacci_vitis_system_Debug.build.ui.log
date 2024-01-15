@@ -1,0 +1,10 @@
+2023-11-21T11:06:44.562136200255-11:06:44 **** Incremental Build of configuration Debug for project fibonacci_vitis_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 56666 C:/Users/ai770741/workspace/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm standalone_domain C:/Users/ai770741/workspace/fibonacci_vitis_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/ai770741/workspace/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm --sys_config design_1_wrapper_1 --bif C:/Users/ai770741/workspace/fibonacci_vitis_system/Debug/system.bif --bitstream C:/Users/ai770741/workspace/fibonacci_vitis/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/ai770741/workspace/fibonacci_vitis/Debug/fibonacci_vitis.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/ai770741/workspace/fibonacci_vitis/_ide/bitstream/design_1_wrapper.bit
+000-Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/ai770741/workspace/fibonacci_vitis_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+11:06:50 Build Finished (took 6s.283ms)
+

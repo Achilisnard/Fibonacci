@@ -1,0 +1,8 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="11" filename="fibonacci_cp/fibonacci.cpp" linenumber="14" name="icmp_ln14" contextFuncName="fibonacci" moduleName="fibonacci" rtlName="icmp_ln14_fu_102_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="C:\Users\ai770741\Documents"><\/item>
+<item  id="20" filename="fibonacci_cp/fibonacci.cpp" linenumber="16" name="icmp_ln16" contextFuncName="fibonacci" moduleName="fibonacci" rtlName="icmp_ln16_fu_108_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="C:\Users\ai770741\Documents"><\/item>
+<item  id="23" filename="fibonacci_cp/fibonacci.cpp" linenumber="17" name="tmp" contextFuncName="fibonacci" moduleName="fibonacci" rtlName="tmp_fu_113_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\ai770741\Documents"><\/item>
+<item  id="24" filename="fibonacci_cp/fibonacci.cpp" linenumber="16" name="i" contextFuncName="fibonacci" moduleName="fibonacci" rtlName="i_fu_119_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\ai770741\Documents"><\/item>
+<\/annotationInfo>
+</annotationInfo>
